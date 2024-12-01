@@ -1,0 +1,94 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: silent
+ipv6: true
+profile:
+  store-selected: true
+  store-fake-ip: true
+clash-for-android:
+  append-system-dns: false
+dns:
+  enable: true
+  listen: 127.0.0.1:1053
+  use-hosts: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - '*.n.n.srv.nintendo.net'
+    - +.stun.playstation.net
+    - xbox.*.*.microsoft.com
+    - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - WORKGROUP
+  nameserver:
+    - system
+proxies:
+  - name: test1
+    type: vless
+    server: www.cloudflare.com
+    port: 443
+    udp: true
+    uuid: ee0e37c4-c410-c618-f2b7-f6eb2a265fc5
+    tls: true
+    client-fingerprint: chrome
+    servername: www.cloudflare.com
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: www.cloudflare.com
+    tfo: false
+    skip-cert-verify: false
+proxy-groups:
+  - type: select
+    name: 🚀 节点选择
+    proxies:
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - ⚖ Worker 负载均衡
+      - test1
+  - name: ⚡ 自动选择
+    type: url-test
+    proxies:
+      - test1
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    lazy: false
+  - type: select
+    name: 🇨🇳 国内服务
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - ⚖ Worker 负载均衡
+      - test1
+  - type: select
+    name: 🐟 漏网之鱼
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
+      - ⚡ 自动选择
+      - ⚖ Worker 负载均衡
+      - test1
+rules:
+  - DOMAIN-SUFFIX,edu.cn,DIRECT
+  - GEOSITE,geolocation-cn,🇨🇳 国内服务
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,lan,DIRECT,no-resolve
+  - GEOIP,cn,🇨🇳 国内服务,no-resolve
+  - MATCH,🐟 漏网之鱼
