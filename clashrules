@@ -1,11 +1,5 @@
 [
   {
-    "name": "Private",
-    "outbound": "DIRECT",
-    "site_rules": [],
-    "ip_rules": ["private"]
-  },
-  {
     "name": "Bilibili",
     "outbound": "📺 嗶哩嗶哩",
     "domain_suffix": ["bilibili.com"],
@@ -61,75 +55,9 @@
     "ip_rules": ["google"]
   },
   {
-    "name": "Ad Block",
-    "outbound": "🛑 广告拦截",
-    "site_rules": ["category-ads-all"],
-    "ip_rules": []
-  },
-  {
-    "name": "Apple",
-    "outbound": "🍏 苹果服务",
-    "site_rules": ["apple"],
-    "ip_rules": []
-  },
-  {
-    "name": "Social Media",
-    "outbound": "🌐 社交媒体",
-    "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
-    "ip_rules": []
-  },
-  {
-    "name": "Netflix",
-    "outbound": "🎬 Netflix",
-    "site_rules": ["netflix"],
-    "ip_rules": []
-  },
-  {
-    "name": "Hulu",
-    "outbound": "📺 Hulu",
-    "site_rules": ["hulu"],
-    "ip_rules": []
-  },
-  {
-    "name": "Disney",
-    "outbound": "🔮 Disney",
-    "site_rules": ["disney"],
-    "ip_rules": []
-  },
-  {
-    "name": "HBO",
-    "outbound": "🎥 HBO",
-    "site_rules": ["hbo"],
-    "ip_rules": []
-  },
-  {
-    "name": "Amazon",
-    "outbound": "💰 Amazon",
-    "site_rules": ["amazon"],
-    "ip_rules": []
-  },
-  {
     "name": "Gaming",
     "outbound": "🎮 游戏平台",
     "site_rules": ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
-    "ip_rules": []
-  },
-  {
-    "name": "Education",
-    "outbound": "📚 教育资源",
-    "site_rules": ["coursera", "edx", "udemy", "khanacademy", "category-scholar-!cn"],
-    "ip_rules": []
-  },
-  {
-    "name": "Financial",
-    "outbound": "💰 金融服务",
-    "site_rules": ["paypal", "visa", "mastercard", "stripe", "wise"],
-    "ip_rules": []
-  },
-  {
-    "name": "Cloud Services",
-    "outbound": "☁️ 云服务",
-    "site_rules": ["aws", "azure", "digitalocean", "heroku", "dropbox"],
     "ip_rules": []
   },
   {
