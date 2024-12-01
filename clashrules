@@ -1,4 +1,4 @@
-
+[
     {
       name: "Private",
       outbound: "DIRECT", //
@@ -151,3 +151,4 @@
       site_rules: ["geolocation-cn"],
       ip_rules: ["cn"]
     },
+];
