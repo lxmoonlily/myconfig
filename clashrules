@@ -1,154 +1,154 @@
 [
-    {
-      name: "Private",
-      outbound: "DIRECT", //
-      site_rules: [],
-      ip_rules: ["private"]
-    },
-    {
-      name: "Bilibili",
-      outbound: "\u{1F4FA} \u54D4\u54E9\u54D4\u54E9", // 📺
-      domain_suffix:["bilibili.com"],
-      site_rules: ["bilibili"],
-      ip_rules: []
-    },
-    {
-      name: "Bing",
-      outbound: "\u{1F50D} Bing\u670D\u52A1", // 🔍
-      site_rules: ["bing", "msn"],
-      ip_rules: []
-    },
-    {
-      name: "AI Services",
-      outbound: "\u{1F4AC} AI \u670D\u52A1", // 💬
-      site_rules: ["openai", "anthropic", "jetbrains-ai", "perplexity"],
-      ip_rules: []
-    },
-    {
-      name: "Github",
-      outbound: "\u{1F431} Github", // 🦉
-      site_rules: ["github", "gitlab"],
-      ip_rules: []
-    },
-    {
-      name: "Microsoft",
-      outbound: "\u{1FA9F} \u5FAE\u8F6F\u670D\u52A1", // 🪟
-      site_rules: ["microsoft"],
-      ip_rules: []
-    },
-    {
-      name: "Youtube",
-      outbound: "\u{1F4F9} \u6CB9\u7BA1\u89C6\u9891", // 📹
-      site_rules: ["youtube"],
-      ip_rules: []
-    },
-    {
-      name: "Bahamut",
-      outbound: "\u{1F3AE} \u5DF4\u54C8\u59C6\u7279", // 🎮
-      site_rules: ["bahamut"],
-      ip_rules: []
-    },
-    {
-      name: "Telegram",
-      outbound: "\u{1F4F2} \u7535\u62A5\u6D88\u606F", // 📞
-      site_rules: ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
-      ip_rules: ["telegram"]
-    },
-    {
-      name: "Google",
-      outbound: "\u{1F50D} \u8C37\u6B4C\u670D\u52A1", // 🔍
-      site_rules: ["google", "google-cn"],
-      ip_rules: ["google"]
-    },
-    {
-      name: "Ad Block",
-      outbound: "\u{1F6D1} \u5E7F\u544A\u62E6\u622A", // 🛑
-      site_rules: ["category-ads-all"],
-      ip_rules: []
-    },
-    {
-      name: "Apple",
-      outbound: "\u{1F34F} \u82F9\u679C\u670D\u52A1", // 🍏
-      site_rules: ["apple"],
-      ip_rules: []
-    },
-    {
-      name: "Social Media",
-      outbound: "\u{1F310} \u793E\u4EA4\u5A92\u4F53", // 🌐
-      site_rules: ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
-      ip_rules: []
-    },
-    {
-      name: "Netflix",
-      outbound: "\u{1F3AC} Netflix", // 🎬
-      site_rules: ["netflix"],
-      ip_rules: []
-    },
-    {
-      name: "Hulu",
-      outbound: "\u{1F4FA} Hulu", // 📺
-      site_rules: ["hulu"],
-      ip_rules: []
-    },
-    {
-      name: "Disney",
-      outbound: "\u{1F52E} Disney", // 🔮
-      site_rules: ["disney"],
-      ip_rules: []
-    },
-    {
-      name: "HBO",
-      outbound: "\u{1F3AC} HBO", // 🎥
-      site_rules: ["hbo"],
-      ip_rules: []
-    },
-    {
-      name: "Amazon",
-      outbound: "\u{1F4B0} Amazon", // 💰
-      site_rules: ["amazon"],
-      ip_rules: []
-    },
-    {
-      name: "Gaming",
-      outbound: "\u{1F3AE} \u6E38\u620F\u5E73\u53F0", // 🎮
-      site_rules: ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
-      ip_rules: []
-    },
-    {
-      name: "Education",
-      outbound: "\u{1F4DA} \u6559\u80B2\u8D44\u6E90", // 📚
-      site_rules: ["coursera", "edx", "udemy", "khanacademy", "category-scholar-!cn"],
-      ip_rules: []
-    },
-    {
-      name: "Financial",
-      outbound: "\u{1F4B0} \u91D1\u878D\u670D\u52A1", // 💰
-      site_rules: ["paypal", "visa", "mastercard", "stripe", "wise"],
-      ip_rules: []
-    },
-    {
-      name: "Cloud Services",
-      outbound: "\u2601\uFE0F \u4E91\u670D\u52A1", // ☁️
-      site_rules: ["aws", "azure", "digitalocean", "heroku", "dropbox"],
-      ip_rules: []
-    },
-    {
-      name: "Location:!CN",
-      outbound: "\u{1F310} 国外服务", // 🌍
-      site_rules: ["geolocation-!cn"],
-      ip_rules: ["!cn"]
-    },
-    {
-      name: "Private",
-      outbound: "DIRECT", //
-      domain_suffix:["edu.cn"],  
-      site_rules: [],
-      ip_rules: ["private","lan"]
-    },
-    {
-      name: "Location:CN",
-      outbound: "\u{1F1E8}\u{1F1F3} \u56FD\u5185\u670D\u52A1", // 🇨🇳
-      site_rules: ["geolocation-cn"],
-      ip_rules: ["cn"]
-    },
-  ];
+  {
+    "name": "Private",
+    "outbound": "DIRECT",
+    "site_rules": [],
+    "ip_rules": ["private"]
+  },
+  {
+    "name": "Bilibili",
+    "outbound": "📺 嗶哩嗶哩",
+    "domain_suffix": ["bilibili.com"],
+    "site_rules": ["bilibili"],
+    "ip_rules": []
+  },
+  {
+    "name": "Bing",
+    "outbound": "🔍 Bing服务",
+    "site_rules": ["bing", "msn"],
+    "ip_rules": []
+  },
+  {
+    "name": "AI Services",
+    "outbound": "💬 AI 服务",
+    "site_rules": ["openai", "anthropic", "jetbrains-ai", "perplexity"],
+    "ip_rules": []
+  },
+  {
+    "name": "Github",
+    "outbound": "🦉 Github",
+    "site_rules": ["github", "gitlab"],
+    "ip_rules": []
+  },
+  {
+    "name": "Microsoft",
+    "outbound": "🪟 微软服务",
+    "site_rules": ["microsoft"],
+    "ip_rules": []
+  },
+  {
+    "name": "Youtube",
+    "outbound": "📹 油管视频",
+    "site_rules": ["youtube"],
+    "ip_rules": []
+  },
+  {
+    "name": "Bahamut",
+    "outbound": "🎮 巴哈姆特",
+    "site_rules": ["bahamut"],
+    "ip_rules": []
+  },
+  {
+    "name": "Telegram",
+    "outbound": "📞 电报消息",
+    "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
+    "ip_rules": ["telegram"]
+  },
+  {
+    "name": "Google",
+    "outbound": "🔍 谷歌服务",
+    "site_rules": ["google", "google-cn"],
+    "ip_rules": ["google"]
+  },
+  {
+    "name": "Ad Block",
+    "outbound": "🛑 广告拦截",
+    "site_rules": ["category-ads-all"],
+    "ip_rules": []
+  },
+  {
+    "name": "Apple",
+    "outbound": "🍏 苹果服务",
+    "site_rules": ["apple"],
+    "ip_rules": []
+  },
+  {
+    "name": "Social Media",
+    "outbound": "🌐 社交媒体",
+    "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
+    "ip_rules": []
+  },
+  {
+    "name": "Netflix",
+    "outbound": "🎬 Netflix",
+    "site_rules": ["netflix"],
+    "ip_rules": []
+  },
+  {
+    "name": "Hulu",
+    "outbound": "📺 Hulu",
+    "site_rules": ["hulu"],
+    "ip_rules": []
+  },
+  {
+    "name": "Disney",
+    "outbound": "🔮 Disney",
+    "site_rules": ["disney"],
+    "ip_rules": []
+  },
+  {
+    "name": "HBO",
+    "outbound": "🎥 HBO",
+    "site_rules": ["hbo"],
+    "ip_rules": []
+  },
+  {
+    "name": "Amazon",
+    "outbound": "💰 Amazon",
+    "site_rules": ["amazon"],
+    "ip_rules": []
+  },
+  {
+    "name": "Gaming",
+    "outbound": "🎮 游戏平台",
+    "site_rules": ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
+    "ip_rules": []
+  },
+  {
+    "name": "Education",
+    "outbound": "📚 教育资源",
+    "site_rules": ["coursera", "edx", "udemy", "khanacademy", "category-scholar-!cn"],
+    "ip_rules": []
+  },
+  {
+    "name": "Financial",
+    "outbound": "💰 金融服务",
+    "site_rules": ["paypal", "visa", "mastercard", "stripe", "wise"],
+    "ip_rules": []
+  },
+  {
+    "name": "Cloud Services",
+    "outbound": "☁️ 云服务",
+    "site_rules": ["aws", "azure", "digitalocean", "heroku", "dropbox"],
+    "ip_rules": []
+  },
+  {
+    "name": "Location:!CN",
+    "outbound": "🌍 国外服务",
+    "site_rules": ["geolocation-!cn"],
+    "ip_rules": ["!cn"]
+  },
+  {
+    "name": "Private Network",
+    "outbound": "DIRECT",
+    "domain_suffix": ["edu.cn"],
+    "site_rules": [],
+    "ip_rules": ["private", "lan"]
+  },
+  {
+    "name": "Location:CN",
+    "outbound": "🇨🇳 国内服务",
+    "site_rules": ["geolocation-cn"],
+    "ip_rules": ["cn"]
+  }
+]
