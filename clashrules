@@ -1,82 +1,99 @@
-[
-  {
-    "name": "Bilibili",
-    "outbound": "📺 嗶哩嗶哩",
-    "domain_suffix": ["bilibili.com"],
-    "site_rules": ["bilibili"],
-    "ip_rules": []
-  },
-  {
-    "name": "Bing",
-    "outbound": "🔍 Bing服务",
-    "site_rules": ["bing", "msn"],
-    "ip_rules": []
-  },
-  {
-    "name": "AI Services",
-    "outbound": "💬 AI 服务",
-    "site_rules": ["openai", "anthropic", "jetbrains-ai", "perplexity"],
-    "ip_rules": []
-  },
-  {
-    "name": "Github",
-    "outbound": "🦉 Github",
-    "site_rules": ["github", "gitlab"],
-    "ip_rules": []
-  },
-  {
-    "name": "Microsoft",
-    "outbound": "🪟 微软服务",
-    "site_rules": ["microsoft"],
-    "ip_rules": []
-  },
-  {
-    "name": "Youtube",
-    "outbound": "📹 油管视频",
-    "site_rules": ["youtube"],
-    "ip_rules": []
-  },
-  {
-    "name": "Bahamut",
-    "outbound": "🎮 巴哈姆特",
-    "site_rules": ["bahamut"],
-    "ip_rules": []
-  },
-  {
-    "name": "Telegram",
-    "outbound": "📞 电报消息",
-    "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
-    "ip_rules": ["telegram"]
-  },
-  {
-    "name": "Google",
-    "outbound": "🔍 谷歌服务",
-    "site_rules": ["google", "google-cn"],
-    "ip_rules": ["google"]
-  },
-  {
-    "name": "Gaming",
-    "outbound": "🎮 游戏平台",
-    "site_rules": ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
-    "ip_rules": []
-  },
-  {
-    "name": "Location:!CN",
-    "outbound": "🌍 国外服务",
-    "site_rules": ["geolocation-!cn"],
-    "ip_rules": ["!cn"]
-  },
-  {
-    "name": "Private Network",
-    "outbound": "DIRECT",
-    "domain_suffix": ["edu.cn"],
-    "site_rules": [],
-    "ip_rules": ["private", "lan"]
-  },
-  {
-    "name": "Location:CN",
-    "outbound": "🇨🇳 国内服务",
-    "site_rules": ["geolocation-cn"],
-    "ip_rules": ["cn"]
-  }
-]
+{
+  "group": [
+    {
+      "name": "Bilibili",
+      "outbound": "📺 嗶哩嗶哩",
+      "domain_suffix": ["bilibili.com"],
+      "site_rules": ["bilibili"],
+      "ip_rules": []
+    },
+    {
+      "name": "Bing",
+      "outbound": "🔍 Bing服务",
+      "site_rules": ["bing", "msn"],
+      "ip_rules": []
+    },
+    {
+      "name": "AI Services",
+      "outbound": "💬 AI 服务",
+      "site_rules": ["openai", "anthropic", "jetbrains-ai", "perplexity"],
+      "ip_rules": []
+    },
+    {
+      "name": "Github",
+      "outbound": "🦉 Github",
+      "site_rules": ["github", "gitlab"],
+      "ip_rules": []
+    },
+    {
+      "name": "Microsoft",
+      "outbound": "🪟 微软服务",
+      "site_rules": ["microsoft"],
+      "ip_rules": []
+    },
+    {
+      "name": "Youtube",
+      "outbound": "📹 油管视频",
+      "site_rules": ["youtube"],
+      "ip_rules": []
+    },
+    {
+      "name": "Bahamut",
+      "outbound": "🎮 巴哈姆特",
+      "site_rules": ["bahamut"],
+      "ip_rules": []
+    },
+    {
+      "name": "Telegram",
+      "outbound": "📞 电报消息",
+      "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
+      "ip_rules": ["telegram"]
+    },
+    {
+      "name": "Google",
+      "outbound": "🔍 谷歌服务",
+      "site_rules": ["google", "google-cn"],
+      "ip_rules": ["google"]
+    },
+    {
+      "name": "Gaming",
+      "outbound": "🎮 游戏平台",
+      "site_rules": ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
+      "ip_rules": []
+    },
+    {
+      "name": "Location:!CN",
+      "outbound": "🌍 国外服务",
+      "site_rules": ["geolocation-!cn"],
+      "ip_rules": ["!cn"]
+    },
+    {
+      "name": "Private Network",
+      "outbound": "DIRECT",
+      "domain_suffix": ["edu.cn"],
+      "site_rules": [],
+      "ip_rules": ["private", "lan"]
+    },
+    {
+      "name": "Location:CN",
+      "outbound": "🇨🇳 国内服务",
+      "site_rules": ["geolocation-cn"],
+      "ip_rules": ["cn"]
+    }
+  ],
+  "selectkeyword": [
+    "📺 嗶哩嗶哩",
+    "🔍 Bing服务",
+    "💬 AI 服务",
+    "🦉 Github",
+    "🪟 微软服务",
+    "📹 油管视频",
+    "🎮 巴哈姆特",
+    "📞 电报消息",
+    "🔍 谷歌服务",
+    "🎮 游戏平台",
+    "🌍 国外服务",
+    "DIRECT",
+    "🇨🇳 国内服务"
+  ]
+}
