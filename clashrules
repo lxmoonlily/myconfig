@@ -2,7 +2,7 @@
   "selectkeyword": [
     "🚀 节点选择",
     "⚡ 自动选择",
-    "⚖ Worker 负载均衡",
+    "⚖  负载均衡",
     "📺 嗶哩嗶哩",
     "🔍 Bing服务",
     "💬 AI 服务",
@@ -37,8 +37,8 @@
       "interval": 300
     },
     {
-      "name": "⚖ Worker 负载均衡",
-      "outbound": "⚖ Worker 负载均衡",
+      "name": "⚖  负载均衡",
+      "outbound": "⚖  负载均衡",
       "selectproxykeyword": ["Work"],
       "isWhitelist": "true",
       "type": "load-balance",
