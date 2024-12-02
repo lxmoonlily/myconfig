@@ -25,6 +25,13 @@
     "⚡ 自动选择",
     "⚖ 负载均衡"
   ],
+  "selectdefaultproxy": [
+    "国内",
+    "国外",
+    "国际",
+    "官网",
+    "回国"
+  ],
   "group": [
     {
       "outbound": "🚀 节点选择",
@@ -40,14 +47,9 @@
         "REJECT", 
         "⚡ 自动选择", 
         "⚖ 负载均衡",
-        "国内",
-        "国外",
-        "国际",
         "移动",
         "电信",
-        "联通",
-        "官网",
-        "回国"
+        "联通"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "isWhitelist": "false",
@@ -81,7 +83,9 @@
       "outbound": "💬 AI 服务",
       "site_rules": ["openai", "anthropic", "jetbrains-ai", "perplexity"],
       "ip_rules": [],
-      "type": "select"
+      "type": "select",
+      "selectproxykeyword": ["香港","HK","hk"],
+      "isWhitelist": "false"
     },
     {
       "outbound": "🦉 Github",
@@ -105,7 +109,9 @@
       "outbound": "🎮 巴哈姆特",
       "site_rules": ["bahamut"],
       "ip_rules": [],
-      "type": "select"
+      "type": "select",
+      "selectproxykeyword": ["台湾","tw","TW"],
+      "isWhitelist": "true"
     },
     {
       "outbound": "📞 电报消息",
