@@ -3,7 +3,7 @@
     {
       "name": "🚀 节点选择",
       "outbound": "🚀 节点选择",
-      "selectproxykeyword": "🚀 节点选择",
+      "selectproxykeyword": ["🚀 节点选择"],
       "isWhitelist": "true",
       "type": "select"
     },
@@ -20,7 +20,7 @@
     {
       "name": "⚖ Worker 负载均衡",
       "outbound": "⚖ Worker 负载均衡",
-      "selectproxykeyword": "work",
+      "selectproxykeyword": ["work"],
       "isWhitelist": "true",
       "type": "load-balance",
       "url": "https://www.gstatic.com/generate_204",
