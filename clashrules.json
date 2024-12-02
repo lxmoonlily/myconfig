@@ -32,7 +32,7 @@
     "官网",
     "回国"
   ],
-  "selectdefaultproxymode": false
+  "selectdefaultproxymode": false,
   "group": [
     {
       "outbound": "🚀 节点选择",
