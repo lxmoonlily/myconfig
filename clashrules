@@ -1,12 +1,6 @@
 {
   "group": [
     {
-      "name": "🚀 节点选择",
-      "outbound": "🚀 节点选择",
-      "selectproxykeyword": ["🚀 节点选择"],
-      "type": "select"
-    },
-    {
       "name": "⚡ 自动选择",
       "outbound": "⚡ 自动选择",
       "selectproxykeyword": ["🚀 节点选择", "DIRECT", "REJECT", "⚡ 自动选择", "⚖ Worker 负载均衡"],
