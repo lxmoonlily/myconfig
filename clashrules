@@ -4,7 +4,6 @@
       "name": "🚀 节点选择",
       "outbound": "🚀 节点选择",
       "selectproxykeyword": ["🚀 节点选择"],
-      "isWhitelist": "false",
       "type": "select"
     },
     {
