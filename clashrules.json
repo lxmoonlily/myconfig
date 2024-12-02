@@ -34,7 +34,21 @@
     },
     {
       "outbound": "⚡ 自动选择",
-      "selectproxykeyword": ["🚀 节点选择", "DIRECT", "REJECT", "⚡ 自动选择", "⚖ 负载均衡"],
+      "selectproxykeyword": [
+        "🚀 节点选择", 
+        "DIRECT", 
+        "REJECT", 
+        "⚡ 自动选择", 
+        "⚖ 负载均衡",
+        "国内",
+        "国外",
+        "国际",
+        "移动",
+        "电信",
+        "联通",
+        "官网",
+        "回国"
+      ],
       "url": "https://www.gstatic.com/generate_204",
       "isWhitelist": "false",
       "type": "url-test",
