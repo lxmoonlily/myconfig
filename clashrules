@@ -1,6 +1,24 @@
 {
   "group": [
     {
+      "name": "🚀 节点选择",
+      "outbound": "🚀 节点选择",
+      "selectproxykeyword":"🚀 节点选择",
+      "isWhitelist":"false"
+    },
+    {
+      "name": "⚡ 自动选择",
+      "outbound": "⚡ 自动选择",
+      "selectproxykeyword":["🚀 节点选择","DIRECT", "REJECT","⚡ 自动选择",  "⚖ Worker 负载均衡"],
+      "isWhitelist":"false"
+    },
+    {
+      "name": "⚖ Worker 负载均衡",
+      "outbound": "⚖ Worker 负载均衡",
+      "selectproxykeyword":"work",
+      "isWhitelist":"true"
+    },
+    {
       "name": "Bilibili",
       "outbound": "📺 嗶哩嗶哩",
       "domain_suffix": ["bilibili.com"],
@@ -79,9 +97,18 @@
       "outbound": "🇨🇳 国内服务",
       "site_rules": ["geolocation-cn"],
       "ip_rules": ["cn"]
-    }
+    },
+    {
+      "name": "🐟 漏网之鱼",
+      "outbound": "🐟 漏网之鱼",
+      "selectproxykeyword":"",
+      "isWhitelist":"false"
+    },
   ],
   "selectkeyword": [
+    "🚀 节点选择",
+    "⚡ 自动选择",
+    "⚖ Worker 负载均衡",
     "📺 嗶哩嗶哩",
     "🔍 Bing服务",
     "💬 AI 服务",
@@ -95,5 +122,6 @@
     "🌍 国外服务",
     "DIRECT",
     "🇨🇳 国内服务"
+    "🐟 漏网之鱼",
   ]
 }
