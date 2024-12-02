@@ -18,16 +18,21 @@
     "🇨🇳 国内服务",
     "🐟 漏网之鱼"
   ],
+  "toppin": [
+    "🚀 节点选择",
+    "DIRECT",
+    "REJECT",
+    "⚡ 自动选择",
+    "⚖ 负载均衡"
+  ],
   "group": [
     {
-      "name": "🚀 节点选择",
       "outbound": "🚀 节点选择",
       "selectproxykeyword": ["🚀 节点选择"],
       "isWhitelist": "false",
       "type": "select"
     },
     {
-      "name": "⚡ 自动选择",
       "outbound": "⚡ 自动选择",
       "selectproxykeyword": ["🚀 节点选择", "DIRECT", "REJECT", "⚡ 自动选择", "⚖ 负载均衡"],
       "url": "https://www.gstatic.com/generate_204",
@@ -37,7 +42,6 @@
       "interval": 300
     },
     {
-      "name": "⚖ 负载均衡",
       "outbound": "⚖ 负载均衡",
       "selectproxykeyword": ["Work"],
       "isWhitelist": "true",
@@ -47,7 +51,6 @@
       "strategy": "round-robin"
     },
     {
-      "name": "Bilibili",
       "outbound": "📺 哔哩哔哩",
       "domain_suffix": ["bilibili.com"],
       "site_rules": ["bilibili"],
@@ -55,77 +58,66 @@
       "type": "select"
     },
     {
-      "name": "Bing",
       "outbound": "🔍 Bing服务",
       "site_rules": ["bing", "msn"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "AI Services",
       "outbound": "💬 AI 服务",
       "site_rules": ["openai", "anthropic", "jetbrains-ai", "perplexity"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Github",
       "outbound": "🦉 Github",
       "site_rules": ["github", "gitlab"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Microsoft",
       "outbound": "🪟 微软服务",
       "site_rules": ["microsoft"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Youtube",
       "outbound": "📹 油管视频",
       "site_rules": ["youtube"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Bahamut",
       "outbound": "🎮 巴哈姆特",
       "site_rules": ["bahamut"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Telegram",
       "outbound": "📞 电报消息",
       "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
       "ip_rules": ["telegram"],
       "type": "select"
     },
     {
-      "name": "Google",
       "outbound": "🔍 谷歌服务",
       "site_rules": ["google", "google-cn"],
       "ip_rules": ["google"],
       "type": "select"
     },
     {
-      "name": "Gaming",
       "outbound": "🎮 游戏平台",
       "site_rules": ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
       "ip_rules": [],
       "type": "select"
     },
     {
-      "name": "Location:!CN",
       "outbound": "🌍 国外服务",
       "site_rules": ["geolocation-!cn"],
       "ip_rules": ["!cn"],
       "type": "select"
     },
     {
-      "name": "Private Network",
       "outbound": "DIRECT",
       "domain_suffix": ["edu.cn"],
       "site_rules": [],
@@ -133,14 +125,12 @@
       "type": "select"
     },
     {
-      "name": "Location:CN",
       "outbound": "🇨🇳 国内服务",
       "site_rules": ["geolocation-cn"],
       "ip_rules": ["cn"],
       "type": "select"
     },
     {
-      "name": "🐟 漏网之鱼",
       "outbound": "🐟 漏网之鱼",
       "selectproxykeyword": [],
       "isWhitelist": "false",
