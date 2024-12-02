@@ -123,6 +123,7 @@
     {
       "name": "🐟 漏网之鱼",
       "outbound": "🐟 漏网之鱼",
+      "selectproxykeyword": [],
       "isWhitelist": "false",
       "type": "select"
     }
