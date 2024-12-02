@@ -33,7 +33,7 @@
       "url": "https://www.gstatic.com/generate_204",
       "isWhitelist": "false",
       "type": "url-test",
-      "lazy": "false",
+      "lazy": false,
       "interval": 300
     },
     {
