@@ -118,12 +118,14 @@
       "outbound": "📞 电报消息",
       "site_rules": ["facebook", "instagram", "twitter", "tiktok", "linkedin", "reddit", "whatsapp", "signal", "discord"],
       "ip_rules": ["telegram"],
+      "ip_resolve": "no-resolve",
       "type": "select"
     },
     {
       "outbound": "🔍 谷歌服务",
       "site_rules": ["google", "google-cn"],
       "ip_rules": ["google"],
+      "ip_resolve": "no-resolve",
       "type": "select"
     },
     {
@@ -136,6 +138,7 @@
       "outbound": "🌍 国外服务",
       "site_rules": ["geolocation-!cn"],
       "ip_rules": ["!cn"],
+      "ip_resolve": "no-resolve",
       "type": "select"
     },
     {
@@ -153,7 +156,7 @@
     },
     {
       "outbound": "🐟 漏网之鱼",
-      "bottompin": "match",
+      "bottompin": ["MATCH"],
       "selectproxykeyword": [],
       "isWhitelist": "false",
       "type": "select"
