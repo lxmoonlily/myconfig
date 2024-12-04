@@ -153,6 +153,7 @@
     },
     {
       "outbound": "🐟 漏网之鱼",
+      "bottompin": "match",
       "selectproxykeyword": [],
       "isWhitelist": "false",
       "type": "select"
