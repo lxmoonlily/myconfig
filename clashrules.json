@@ -146,12 +146,14 @@
       "domain_suffix": ["edu.cn"],
       "site_rules": [],
       "ip_rules": ["private", "lan"],
+      "ip_resolve": "no-resolve",
       "type": "select"
     },
     {
       "outbound": "🇨🇳 国内服务",
       "site_rules": ["geolocation-cn"],
       "ip_rules": ["cn"],
+      "ip_resolve": "no-resolve",
       "type": "select"
     },
     {
